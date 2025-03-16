@@ -2,7 +2,6 @@
   display: grid;
   box-sizing: border-box;
   width: 1100px;
-  min-height: 293px;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 95px 50px 90px;
@@ -170,17 +169,14 @@
 
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
-  position: relative;
 }
 
 .card_type_picture {
   background-image: url("../images/card-lot-02.jpg");
-  position: relative;
 }
 
 .card_type_book {
   background-image: url("../images/card-lot-03.jpg");
-  position: relative;
 }
 
 .card__title {
